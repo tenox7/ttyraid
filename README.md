@@ -32,10 +32,11 @@ contrast and gamma, `-s FILE` / `-p FILE` dump one frame as text or as a PGM.
 ## Docker
 
 ```sh
-docker build -t ttyraid . && docker run --rm -it ttyraid
+docker run --rm -it tenox7/ttyraid
 ```
 
-A `scratch` image holding one 1 MB static binary. Nothing else is in there.
+A `scratch` image holding one 1 MB static binary — nothing else is in there.
+`make push` rebuilds it for amd64, arm64, armv7, i386, ppc64le, s390x and riscv64.
 
 ## Art
 
