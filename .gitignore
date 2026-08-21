@@ -1,0 +1,4 @@
+ttyraid
+*.o
+*.pgm
+*.dSYM/
